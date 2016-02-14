@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Public.master.cs" Inherits="Public" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header id="banner">
+                <img src="images/bcit.png" />
+            </header>
+            <nav style="float: left; width: 200px; height: 800px; background: #cccccc;">
+                <a href="Distance.aspx">Distance Converter</a>
+                <br />
+                <a href="Temperature.aspx">Temperature Converter</a>
+            </nav>
+            <div>
+                <asp:ContentPlaceHolder ID="content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

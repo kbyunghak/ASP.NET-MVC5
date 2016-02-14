@@ -1,0 +1,13 @@
+﻿@model System.Diagnostics.Process
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1>Details</h1>
+<h2>ID: @Model.Id</h2>
+<h3>Process Name: @Model.ProcessName</h3>
+<h4>Number of handles: @Model.HandleCount</h4>
+
+@Html.Partial("_Company")
+

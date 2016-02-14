@@ -1,0 +1,17 @@
+﻿@model IEnumerable<string>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Files</h2>
+
+<ul>
+    @foreach (var fName in Model)
+    {
+        <li>
+            @Html.ActionLink(fName, "Content", new { fName = fName })
+        </li>
+    }
+</ul>

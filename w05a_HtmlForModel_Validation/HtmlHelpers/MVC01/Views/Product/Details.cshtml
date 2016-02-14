@@ -1,0 +1,49 @@
+﻿@model MVC01.Models.Northwind.Product
+@{ ViewBag.Title = "Detail Product"; }
+
+@*using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <fieldset>
+            <legend>@ViewBag.Title</legend>
+            @Html.HiddenFor(m => m.ProductID)
+            <p>
+                @Html.LabelFor(m => m.ProductName)
+                @Html.DisplayFor(m => m.ProductName, new { @class = "form-control" })
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Supplier)
+                @Html.DisplayFor(m => m.SupplierID, new { @class = "form-control" })
+
+            </p>
+            <p>
+                @Html.LabelFor(m => m.UnitPrice)
+                @Html.DisplayFor(m => m.UnitPrice, new { @class = "form-control" })
+            </p>
+            <p>
+                @Html.LabelFor(m => m.CategoryID)
+                @Html.DisplayFor(m => m.CategoryID, new { @class = "form-control" })
+            </p>
+            <p>
+                @Html.ActionLink("Edit", "Edit", new { id = Model.ProductID }) |
+                @Html.ActionLink("Back to Search", "Index")
+            </p>
+        </fieldset>
+    }*@
+
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        @Html.AntiForgeryToken()
+        <legend>@ViewBag.Title</legend>
+        @Html.DisplayForModel()
+        @Html.ActionLink("Back to Search", "Index")
+    </fieldset>
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Content</h2>
+
+<ul>
+    @{
+        Array userData = File.ReadAllLines(@ViewBag.fileName);
+    }
+    @foreach (string dataLine in userData)
+    {
+        foreach (string dataItem in dataLine.Split(','))
+        {@dataItem <text>&nbsp;</text>}
+        <br />
+    }
+
+
+
+</ul>

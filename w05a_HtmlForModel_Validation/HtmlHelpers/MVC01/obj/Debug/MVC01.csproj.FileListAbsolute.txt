@@ -1,0 +1,165 @@
+C:\MZE\3973\03\MVC01\MVC01\bin\MVC01.dll.config
+C:\MZE\3973\03\MVC01\MVC01\bin\MVC01.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\MVC01.pdb
+C:\MZE\3973\03\MVC01\MVC01\bin\Antlr3.Runtime.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\EntityFramework.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\EntityFramework.SqlServer.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.AspNet.Identity.Core.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Cookies.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Facebook.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Google.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.OAuth.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Twitter.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Web.Infrastructure.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Newtonsoft.Json.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\Owin.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Helpers.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Mvc.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Optimization.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Razor.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.WebPages.Deployment.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.WebPages.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.WebPages.Razor.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\WebGrease.dll
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Helpers.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Mvc.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Optimization.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.Razor.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.WebPages.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.WebPages.Deployment.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\System.Web.WebPages.Razor.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Newtonsoft.Json.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Antlr3.Runtime.pdb
+C:\MZE\3973\03\MVC01\MVC01\bin\EntityFramework.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\EntityFramework.SqlServer.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.AspNet.Identity.Core.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Facebook.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Cookies.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.OAuth.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Google.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.Twitter.xml
+C:\MZE\3973\03\MVC01\MVC01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\MZE\3973\03\MVC01\MVC01\obj\Debug\MVC01.csprojResolveAssemblyReference.cache
+C:\MZE\3973\03\MVC01\MVC01\obj\Debug\MVC01.dll
+C:\MZE\3973\03\MVC01\MVC01\obj\Debug\MVC01.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\MVC01.dll.config
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\MVC01.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\MVC01.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Antlr3.Runtime.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\EntityFramework.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\EntityFramework.SqlServer.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Facebook.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Google.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Twitter.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Web.Infrastructure.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Newtonsoft.Json.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Owin.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Helpers.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Mvc.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Optimization.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Razor.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.WebPages.Deployment.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.WebPages.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.WebPages.Razor.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\WebGrease.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Helpers.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Mvc.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Optimization.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.Razor.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.WebPages.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.WebPages.Deployment.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\System.Web.WebPages.Razor.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Newtonsoft.Json.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Antlr3.Runtime.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\EntityFramework.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\EntityFramework.SqlServer.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Facebook.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Google.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Twitter.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\obj\Debug\MVC01.csprojResolveAssemblyReference.cache
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\obj\Debug\MVC01.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\HtmlHelpers (1)\HtmlHelpers\MVC01\obj\Debug\MVC01.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\obj\Debug\MVC01.csprojResolveAssemblyReference.cache
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\obj\Debug\MVC01.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\obj\Debug\MVC01.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\MVC01.dll.config
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\MVC01.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\MVC01.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Antlr3.Runtime.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\EntityFramework.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\EntityFramework.SqlServer.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Facebook.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Google.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Twitter.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Web.Infrastructure.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Newtonsoft.Json.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Owin.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Helpers.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Mvc.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Optimization.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Razor.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.WebPages.Deployment.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.WebPages.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.WebPages.Razor.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\WebGrease.dll
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Helpers.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Mvc.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Optimization.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.Razor.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.WebPages.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.WebPages.Deployment.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\System.Web.WebPages.Razor.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Newtonsoft.Json.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Antlr3.Runtime.pdb
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\EntityFramework.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\EntityFramework.SqlServer.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Facebook.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Google.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.Twitter.xml
+D:\BCIT\4th term\COMP4870-Intranet PalnningDevelopmt\Lab\UploadGit\w05a_HtmlForModel_Validation\HtmlHelpers\MVC01\bin\Microsoft.Owin.Security.MicrosoftAccount.xml

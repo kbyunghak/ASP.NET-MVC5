@@ -1,0 +1,71 @@
+﻿@model MVC01.Models.Northwind.Product
+@{ ViewBag.Title = "Edit Product"; }
+
+@*using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(excludePropertyErrors: true)
+        <fieldset>
+            <legend>@ViewBag.Title</legend>
+            @Html.Hidden("ProductID", Model.ProductID)
+            <p>
+                @Html.Label("ProductName")
+                @Html.TextBox("ProductName", Model.ProductName)
+            </p>
+            <p>
+                @Html.Label("UnitPrice")
+                @Html.TextBox("UnitPrice", Model.UnitPrice)
+            </p>
+            <p>
+                @Html.Label("CategoryID")
+                @Html.DropDownList("CategoryID", ViewBag.Categories as SelectList)
+            </p>
+            <p>
+                @Html.Label("CompanyName")
+                @Html.DropDownList("CompanyName", ViewBag.Suppliers as SelectList)
+            </p>
+            <p><input type="submit" value="Save" /></p>
+       </fieldset>
+}*@
+
+@*@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(excludePropertyErrors: true)
+    <fieldset>
+        <legend>@ViewBag.Title</legend>
+        @Html.HiddenFor(m =>  m.ProductID)
+        <p>
+            @Html.LabelFor(m => m.ProductName)
+            @Html.EditorFor(m => m.ProductName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ProductName, "", new { @class = "text-danger" })
+        </p>
+        <p>
+            @Html.LabelFor(m => m.Supplier)
+            @Html.DropDownListFor(m => m.SupplierID, ViewBag.Suppliers as SelectList, new { @class = "btn btn-primary dropdown-toggle" })
+           
+        </p>
+        <p>
+            @Html.LabelFor(m => m.UnitPrice)
+            @Html.EditorFor(m => m.UnitPrice, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.UnitPrice, "", new { @class = "text-danger" })
+        </p>
+        <p>
+            @Html.LabelFor(m => m.CategoryID)
+            @Html.DropDownListFor(m => m.CategoryID, ViewBag.Categories as SelectList, new { @class = "btn btn-success dropdown-toggle" })
+        </p>
+        <p><input type="submit" value="Save" class="btn-info btn"/></p>
+    </fieldset>
+}*@
+
+@using (Html.BeginForm()) {
+    <fieldset>
+        @Html.AntiForgeryToken()
+        <legend>@ViewBag.Title</legend>
+        @Html.EditorForModel()
+        <p><input type="submit" value="Save" class="btn btn-primary"/>        
+        <a href="/product/index" class="btn btn-primary">Cancel</a> </p>
+     </fieldset>
+    }
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

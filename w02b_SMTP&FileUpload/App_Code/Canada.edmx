@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CanadaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="state_alpha_code">
+          <Key>
+            <PropertyRef Name="alpha_code" />
+          </Key>
+          <Property Name="alpha_code" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="country" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="state_city">
+          <Key>
+            <PropertyRef Name="alpha_code" />
+            <PropertyRef Name="city" />
+          </Key>
+          <Property Name="alpha_code" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="city" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="state_region">
+          <Key>
+            <PropertyRef Name="alpha_code" />
+            <PropertyRef Name="region" />
+          </Key>
+          <Property Name="alpha_code" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="region" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__state_cit__alpha__09DE7BCC">
+          <End Role="state_alpha_code" Type="Self.state_alpha_code" Multiplicity="1" />
+          <End Role="state_city" Type="Self.state_city" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="state_alpha_code">
+              <PropertyRef Name="alpha_code" />
+            </Principal>
+            <Dependent Role="state_city">
+              <PropertyRef Name="alpha_code" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__state_reg__alpha__0519C6AF">
+          <End Role="state_alpha_code" Type="Self.state_alpha_code" Multiplicity="1" />
+          <End Role="state_region" Type="Self.state_region" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="state_alpha_code">
+              <PropertyRef Name="alpha_code" />
+            </Principal>
+            <Dependent Role="state_region">
+              <PropertyRef Name="alpha_code" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CanadaModelStoreContainer">
+          <EntitySet Name="state_alpha_code" EntityType="Self.state_alpha_code" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="state_city" EntityType="Self.state_city" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="state_region" EntityType="Self.state_region" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__state_cit__alpha__09DE7BCC" Association="Self.FK__state_cit__alpha__09DE7BCC">
+            <End Role="state_alpha_code" EntitySet="state_alpha_code" />
+            <End Role="state_city" EntitySet="state_city" />
+          </AssociationSet>
+          <AssociationSet Name="FK__state_reg__alpha__0519C6AF" Association="Self.FK__state_reg__alpha__0519C6AF">
+            <End Role="state_alpha_code" EntitySet="state_alpha_code" />
+            <End Role="state_region" EntitySet="state_region" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CanadaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="state_alpha_code">
+          <Key>
+            <PropertyRef Name="alpha_code" />
+          </Key>
+          <Property Name="alpha_code" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="state_city" Relationship="Self.FK__state_cit__alpha__09DE7BCC" FromRole="state_alpha_code" ToRole="state_city" />
+          <NavigationProperty Name="state_region" Relationship="Self.FK__state_reg__alpha__0519C6AF" FromRole="state_alpha_code" ToRole="state_region" />
+        </EntityType>
+        <EntityType Name="state_city">
+          <Key>
+            <PropertyRef Name="alpha_code" />
+            <PropertyRef Name="city" />
+          </Key>
+          <Property Name="alpha_code" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="state_alpha_code" Relationship="Self.FK__state_cit__alpha__09DE7BCC" FromRole="state_city" ToRole="state_alpha_code" />
+        </EntityType>
+        <EntityType Name="state_region">
+          <Key>
+            <PropertyRef Name="alpha_code" />
+            <PropertyRef Name="region" />
+          </Key>
+          <Property Name="alpha_code" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="region" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="state_alpha_code" Relationship="Self.FK__state_reg__alpha__0519C6AF" FromRole="state_region" ToRole="state_alpha_code" />
+        </EntityType>
+        <Association Name="FK__state_cit__alpha__09DE7BCC">
+          <End Role="state_alpha_code" Type="Self.state_alpha_code" Multiplicity="1" />
+          <End Role="state_city" Type="Self.state_city" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="state_alpha_code">
+              <PropertyRef Name="alpha_code" />
+            </Principal>
+            <Dependent Role="state_city">
+              <PropertyRef Name="alpha_code" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__state_reg__alpha__0519C6AF">
+          <End Role="state_alpha_code" Type="Self.state_alpha_code" Multiplicity="1" />
+          <End Role="state_region" Type="Self.state_region" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="state_alpha_code">
+              <PropertyRef Name="alpha_code" />
+            </Principal>
+            <Dependent Role="state_region">
+              <PropertyRef Name="alpha_code" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CanadaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="state_alpha_code" EntityType="Self.state_alpha_code" />
+          <EntitySet Name="state_city" EntityType="Self.state_city" />
+          <EntitySet Name="state_region" EntityType="Self.state_region" />
+          <AssociationSet Name="FK__state_cit__alpha__09DE7BCC" Association="Self.FK__state_cit__alpha__09DE7BCC">
+            <End Role="state_alpha_code" EntitySet="state_alpha_code" />
+            <End Role="state_city" EntitySet="state_city" />
+          </AssociationSet>
+          <AssociationSet Name="FK__state_reg__alpha__0519C6AF" Association="Self.FK__state_reg__alpha__0519C6AF">
+            <End Role="state_alpha_code" EntitySet="state_alpha_code" />
+            <End Role="state_region" EntitySet="state_region" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CanadaModelStoreContainer" CdmEntityContainer="CanadaEntities">
+          <EntitySetMapping Name="state_alpha_code">
+            <EntityTypeMapping TypeName="CanadaModel.state_alpha_code">
+              <MappingFragment StoreEntitySet="state_alpha_code">
+                <ScalarProperty Name="alpha_code" ColumnName="alpha_code" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="country" ColumnName="country" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="state_city">
+            <EntityTypeMapping TypeName="CanadaModel.state_city">
+              <MappingFragment StoreEntitySet="state_city">
+                <ScalarProperty Name="alpha_code" ColumnName="alpha_code" />
+                <ScalarProperty Name="city" ColumnName="city" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="state_region">
+            <EntityTypeMapping TypeName="CanadaModel.state_region">
+              <MappingFragment StoreEntitySet="state_region">
+                <ScalarProperty Name="alpha_code" ColumnName="alpha_code" />
+                <ScalarProperty Name="region" ColumnName="region" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

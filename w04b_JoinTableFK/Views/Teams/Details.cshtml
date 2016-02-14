@@ -1,0 +1,58 @@
+﻿@model CodeFirstStuff.Models.NHL.Team
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Team</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Province)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Province)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CaptainJerseyNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CaptainJerseyNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalaryCap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalaryCap)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TeamName }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

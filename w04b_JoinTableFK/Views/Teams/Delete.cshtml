@@ -1,0 +1,64 @@
+﻿@model CodeFirstStuff.Models.NHL.Team
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Team</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Province)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Province)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CaptainJerseyNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CaptainJerseyNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalaryCap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalaryCap)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
