@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66CFAEA7-94B8-4D6A-B0BF-AD6B89D48BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93B8E7BA-DE70-46B6-9AE1-459F345549AB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SQLiteWebAPI", "src\SQLiteWebAPI\SQLiteWebAPI.xproj", "{6A191175-7D87-4EB7-A347-8EA8C1D226CB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DataModel", "src\DataModel\DataModel.xproj", "{52278BBE-03D4-4925-90A0-9169D646F37E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A191175-7D87-4EB7-A347-8EA8C1D226CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A191175-7D87-4EB7-A347-8EA8C1D226CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A191175-7D87-4EB7-A347-8EA8C1D226CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A191175-7D87-4EB7-A347-8EA8C1D226CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52278BBE-03D4-4925-90A0-9169D646F37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52278BBE-03D4-4925-90A0-9169D646F37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52278BBE-03D4-4925-90A0-9169D646F37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52278BBE-03D4-4925-90A0-9169D646F37E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A191175-7D87-4EB7-A347-8EA8C1D226CB} = {66CFAEA7-94B8-4D6A-B0BF-AD6B89D48BB4}
+		{52278BBE-03D4-4925-90A0-9169D646F37E} = {66CFAEA7-94B8-4D6A-B0BF-AD6B89D48BB4}
+	EndGlobalSection
+EndGlobal
